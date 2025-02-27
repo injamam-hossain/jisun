@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color:#abbac9;
+}
+
+
+.header {
+	height: 100px;
+	background-color:#100441;
+}
+
+.container {
+	
+	width: 1300px;
+	margin: 0 auto;
+}
+.mt-40 {
+	margin-top: 40px;
+}
+
+.banner h1{
+    color:#10ebac;
+	height: 500px;
+	background-color: #555;
+	background-image: url('../images/banner/1.png');
+	background-size: cover;
+}
+.banner-content{
+	color:#c509ef;
+	margin-top:0;
+	font-weight:300;
+}
+
+.box-mother {
+	overflow: hidden;
+	margin-bottom:100px;
+}
+
+.box {
+	width: 31.60%;
+	background-color: #FFF;
+	float: left;
+	margin-right:10px;
+	margin-left:10px;
+	padding-bottom: 30px;
+}
+
+.b-img img {
+	width: 100%;
+}
+
+.b-title, .b-des {
+	padding-left: 10px;
+    padding-right: 10px;
+}
