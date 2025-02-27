@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title>html css9</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		
+</head>
+
+<body>
+
+            <div class="header">
+		     jisun
+		</div>
+		     <div class="banner">
+		    <h1> cokking </h1>
+		</div>
+		  
+		           <div class="container mt-40">
+					  <div class="banner-content">
+						<h1>"start your day with a first food"</h1>
+							
+			           <div class="box">
+					   <div class="b-img"><img src="images/info/1.jpg"></div>
+					    <div class="b-title"><h4>(what kind of food you want)</h4></div>
+						<div class="b-des">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil </div>
+			</div>
+		           
+				   <div class="box">
+					   <div class="b-img"><img src="images/info/2.jpg"></div>
+					    <div class="b-title"><h4>(what kind of food you want)</h4></div>
+						<div class="b-des">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil </div>
+			</div>
+			    
+				<div class="box">
+					   <div class="b-img"><img src="images/info/3.jpg"></div>
+					    <div class="b-title"><h4>(what kind of food you want)</h4></div>
+						<div class="b-des">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil </div>
+			</div>
+			
+			
+			
+			           
+			 
+                                      
+
+
+
+
+
+
+</body>
+</html>
