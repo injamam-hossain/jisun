@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style type="text/css">
+*{
+    background-color: rgb(7, 227, 157);
+}
+
+header{
+    
+   background-color: blue;
+    text-align: center;
+    height:80px;
+    width:auto;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.midlebody{
+    background-color: orange;
+    text-align: center;
+    height:400px;
+    width:1230px;
+    margin-bottom:-420px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+footer{
+    background-color: brown;
+    text-align:center;
+    height:80px;
+    width:auto;
+    border-radius: 20px;
+    margin-top:500px;
+    
+}
+
+
+
+</style>
+<body>
+    <header>
+         design
+    </header>
+    <div class="midlebody">this is layout</div>
+    <footer> jisuns</footer>
+</body>    
+</html>
