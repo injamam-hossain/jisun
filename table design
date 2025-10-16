@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1 style="text-align: center;">jone week</h1>
+    <p style="text-align: center;">Lorem ipsum,@ dolor sit amet| consectetur| adipisicing.</p>
+   </header>
+   <h3 style="text-align: center;">webdeveloper design thr best</h3> 
+
+<table border="1" width="100%">
+<tr>
+  <td>
+    <h3>portfoli highlights</h3>
+    <ul>
+    <li>resposive html layout</li>
+    <li>e-comars storefont</li>
+    <li>prototype</li>
+    </ul>
+  </td>
+  <td>
+<h3>Lorem ipsum dolor, sit amet consectetur adipisicing.</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.lote Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nobis impedit fugit blanditiis saepe voluptas laudantium, <a herf="#">click me</a> perspiciatis quia ipsa quo recusandae reprehenderit.</p>
+<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam!</h3>
+</td>
+<td>
+<h2>Lorem, ipsum dolor.</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sint in expedita obcaecati ea sunt eum, beatae id doloremque? Tenetur, nulla quia officia, dignissimos, et earum enim distinctio quo sint voluptatum ratione! Vero.</p>
+<ul>
+  <li>joy</li>
+  <li>tanzir</li>
+  <li>rezvi</li>
+</ul>
+</td>
+</tr>
+</table>
+
+<h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, debitis repellendus.</h2>
+  <table border="1" width="100%">
+<tr>
+  <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto incidunt sint consequuntur voluptatum sed, maiores at officiis rerum nobis laboriosam?</td>
+  <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto incidunt sint consequuntur voluptatum sed, maiores at officiis rerum nobis laboriosam?</td>
+  <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto incidunt sint consequuntur voluptatum sed, maiores at officiis rerum nobis laboriosam?</td>
+</tr>
+</table>
+<footer style="text-align: center;">
+  @[2028]all right reseved by jon week done
+</footer>
+
+</body>
+</html>
