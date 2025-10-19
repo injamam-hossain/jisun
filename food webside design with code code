@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Delicious Food</title>
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">চিলেকোঠা
+</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center d-flex align-items-center justify-content-center">
+        <div class="container text-white">
+            <h1 class="display-2">Taste the Experience</h1>
+            <p class="lead">Fresh ingredients, amazing flavors, unforgettable moments.</p>
+            <a href="#menu" class="btn btn-primary btn-lg mt-3">View Our Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Delicious Menu</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/1.jpg" class="card-img-top" alt="Dish 1">
+                        <div class="card-body">
+                            <h3 class="card-title">Samiul sir special kacchi </h5>
+                          <p class="card-text">The legendary Samiul Sir Special Kacchi is a masterpiece of juicy mutton, fragrant rice, and crispy potatoes cooked to perfection. The meat is marinated in yogurt, Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis minus aut doloribus ex ipsum corrupti mollitia officiis magnam tenetur?spices, and fried onions, layered with half-cooked rice, saffron milk, and mint, then slow-cooked in dum style till everything melts together in flavor. One bite and you’ll know — this isn’t just biryani, it’s an emotion cooked with love, patience, and a touch of Samiul Sir’s magic.</p>
+
+                                "</p>
+                            <h6 class="card-subtitle mb-2 text-muted">499 taka</h6>
+                        </div>
+                       </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/2.jpg" class="card-img-top" alt="Dish 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Fried chicken</h5>
+                            <p class="card-text">The Special Fried Chicken starts with tender chicken pieces marinated in a mix of yogurt, garlic, ginger, chili powder, salt, and a splash of lemon juice — because flavor deserves drama! After resting for a few hours, the chicken is dipped in beaten egg, coated with a secret blend of flour, cornflour, paprika, and black pepper, then deep-fried until golden brown and perfectly crispy. The result? A crunchy shell that crackles with every bite and soft, juicy meat inside that melts like butter. Serve it hot with fries, mayo, and a cold drink — and boom, you’ve got happiness on a plate. One bite and you’ll understand why it’s called Special Fried Chicken — it’s not just fried, it’s fried with attitude! 😎🔥
+</p>
+                            <h6 class="card-subtitle mb-2 text-muted">200 taka</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/3.jpg" class="card-img-top" alt="Dish 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Pasta</h5>
+                            <p class="card-text">Love is temporary, but Pasta  is forever.</p>
+                            <h6 class="card-subtitle mb-2 text-muted">280 taka</h6>
+                        </div>
+                        <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/4.jpg" class="card-img-top" alt="Dish 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Burger</h5>
+                            <p class="card-text">No drama, just extra cheese and double patty please</p>
+                            <h6 class="card-subtitle mb-2 text-muted">180taka</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="bg-green py-5">
+        <div class="container">
+            <h2 class="text-center mb-3">About Us</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="images/5.jpg" class="img-fluid rounded shadow" alt="Our Team">
+                </div>
+                <div class="col-md-6 mt-4 mt-md-0">
+                    <p class="lead">Chilekotha is a small and lively restaurant run by a group of friends. It offers fresh and flavorful dishes for its guests. The friendly atmosphere and tasty food at affordable prices have made Chilekotha a favorite among locals. It’s a perfect place to spend time with family, friends, or colleagues..</p>
+                    <ul>
+                        <li>MD:Injaman Hossain(Jisun)</li>
+                        <li>MD:Fahim Fardin (Avash)</li>
+                    </ul>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2025 Delicious Food. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
