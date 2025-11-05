@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(95, 52, 52);
+        }
+        .header{
+            background-color: blue;
+            color:aliceblue;
+            text-align: center;
+            padding:20px;
+            border-radius: 4px;
+        }
+        .content{
+            background-color:#ab0b6b;
+            padding:20px;
+            margin:40px; 
+            text-align: center;
+            width:80%;
+            height:400px;
+            border-radius: 10px;;
+        }
+        .footer{
+            background-color: rgb(44, 57, 25);
+            color:aliceblue;
+            padding:20px;
+            font-size: 18px;
+            text-align: center;
+            border-radius: 4px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="header">this is a header</div>
+    <div class="content">this is my content</div>
+    <div class="footer">thanks for visiting</div>
+</body>
+</html>
