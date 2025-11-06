@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Skills</title>
+  <style>
+  body{
+     background-color: #201d1d;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+  } 
+      
+.header{
+    background-color: rgb(43, 8, 41);
+    border-radius: 20px;
+}
+.container-flex{
+    background-color: rgb(73, 13, 34);
+    padding: 40px;
+    border-radius: 20px;
+    align-items:center;
+}
+   .container-flex img{
+    border: 2px solid chocolate;
+    border-radius: 20px;
+    
+   }
+   .card-img{
+    border-radius: 10px;
+    object-fit: cover;
+    }
+
+    .container-card {
+      display: flex;
+      justify-content:center ;
+      align-items: center;       
+      gap: 10px;               
+      margin-top:20px;
+      flex-wrap: wrap;        
+    }
+
+    .box {
+      background-color: #09242b;
+      border: 2px solid #00bcd4;
+      border-radius: 15px;
+      width:180px;
+      height:140px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      transition: 0.3s;
+    }
+
+    .box:hover{
+      transform: scale(1.1);
+      background-color: #444;
+    }
+    .footer{
+        background-color: rgb(65, 10, 55);
+        font-size:30px;
+        border-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+    <div class="header">
+        <h1>my name:jisun</h1>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quo!</p> 
+     </div>  
+   <div class="container-flex mt-3">
+  <h2>Card Image</h2><br>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quia, debitis labore molestias aspernatur incidunt assumenda! Et provident quisquam sunt!</p>
+  <p>nataliya sara</p>
+  <p>year:20</p>
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="https://images.pexels.com/photos/33624853/pexels-photo-33624853.jpeg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Nataliya sara</h4>
+      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+   <br>
+     </div>
+
+<h2>food design</h2>
+<div class="container-card">
+    <div class="box">
+        <h4>apple</h4>
+        <p>this is very delicious food</p>
+    </div>
+     <div class="box">
+        <h4>orange</h4>
+        <p>this is very delicious food</p>
+    </div>
+     <div class="box">
+        <h4>painaple</h4>
+        <p>this is very delicious food</p>
+    </div>
+</div>
+<div class="footer">
+    <h3>thanks for vesiting</h3>
+</div>
+</body>
+</html>
