@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(88, 43, 131);
+        }
+        .header{
+            background-color: rgb(31, 79, 110);
+            text-align: center;
+            color:rgb(245, 239, 239);
+            font-size:20px;
+            border-radius: 10px;
+        }
+        a:hover{
+            background-color: rgb(148, 66, 136);
+        }
+            
+        .content{
+            background:rgb(105, 20, 60);
+            color: rgb(134, 123, 119);
+            padding:20px;
+            margin:20px;
+            text-align: center;
+            border-radius:20px;
+        }
+        .content img{
+            border:2px solid crimson;
+            width:1100px;
+            height:400px;
+            padding:10px;
+            font-size:10px;
+            border-radius: 20px;
+
+        }
+        .container table{
+            width:400px;
+            height:200px;
+            border-radius: 10px;
+            border: 2px solid coral;
+        }
+        .footer{
+          background-color: blueviolet;
+          text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+   <div class="header">
+    <h1>আমার তথ্য</h1>
+    <p>নাম: Jisun</p>
+    <p>বয়স: ২০</p>
+    <p>প্রিয় বিষয়: ওয়েব ডেভেলপমেন্ট</p>
+
+    <h2>আমার লক্ষ্য</h2>
+    <ol>
+        <li>ভালোভাবে HTML, CSS শেখা</li>
+        <li>React শিখে ফ্রন্টএন্ড ডেভেলপার হওয়া</li>
+        <li>নিজের ওয়েবসাইট বানানো</li>
+    </ol>
+    <a href="https://youtube.com">click me</a>
+   </div>
+
+
+
+   <div class="content">
+    <h1>jisun is a good boy</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, eveniet.</p>
+    <img src="https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&w=600"alt="online image">
+    <br><br>
+    <img src="https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&w=600"alt="online image"><br><br>
+    </div>
+    <div class="container mt-3">
+        <div class="table">
+      <table border="1" cellpadding="8" cellspacing="0">
+        <tr>
+            <th>দিন</th>
+            <th>সময়</th>
+            <th>বিষয়</th>
+        </tr>
+        <tr>
+            <td>রবিবার</td>
+            <td>10:00 AM</td>
+            <td>HTML</td>
+        </tr>
+        <tr>
+            <td>সোমবার</td>
+            <td>10:00 AM</td>
+            <td>CSS</td>
+        </tr>
+        
+    </table>
+    </div>
+    </div>
+    
+   <div class="footer">
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+    <from action="#"method="post">
+        <label>name</label><br>
+        <input type="text"name="placeholder=your name"><br><br>
+        <label>email</label>
+        <input type="email"name="placeholder=jisun khan@nddj"><br><br>
+         <label>বার্তা:</label><br>
+        <textarea name="message" rows="4" cols="30" placeholder="তোমার বার্তা লিখো"></textarea><br><br>
+
+        <input type="submit" value="পাঠাও">
+     
+    </from>
+
+   </div>
+
+</body>
+</html>
