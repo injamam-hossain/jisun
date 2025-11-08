@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flexbox&grid example</title>
+  <style>
+    body{
+      background-color: rgb(113, 194, 194);
+      margin: auto;
+      padding:0;
+    }
+    .header{
+      background-color:#2222;
+      color:black;
+      text-align: center;
+      padding: 20px;
+      margin:10px;
+      border-radius:10px;
+    }
+    .header:hover{
+      background-color: #056e3bd6;
+
+    }
+    .flex-section{
+      background:#2222;
+      text-align: center;
+      padding:40px;
+      border-radius: 10px;
+      margin: 20px;
+    }
+    .flex-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap:30px;
+      flex-wrap:wrap;
+    }
+    .flex-box{
+      background: #2222;
+      border-radius: 20px;
+      width:190PX;
+      transition: 0.3s;
+      padding:10px;
+      margin:10px;
+    }
+    .flex-box:hover{
+      cursor:pointer;
+      transform: scale(1.1);
+      background: #035c0673;
+
+    }
+   .grid-section{
+    background:#2222;
+    padding: 40px;
+    border-radius:20px;
+    margin: 20px;
+   } 
+   .grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    margin: 10px;
+   }
+   .grid-item{
+    background: #2222;
+    padding: 40px;
+    border-radius: 10px;
+    transition: 0.3s;
+   }
+   .grid-item:hover{
+   transform: scale(1.1);
+   background: #025c02;
+   }
+    footer{
+      background: #2222;
+      color: #04603a;
+      text-align: center;
+      padding: 15px;
+      border-radius: 10px;
+      margin: 20px
+    }
+        
+
+  </style>
+</head>
+<body>
+  <!--header-->
+  <div class="header">
+    <h1>flexbox layout</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quam perferendis dolores necessitatibus vitae reiciendis amet quidem obcaecati ipsa quasi.</p>
+   <a href="https://facebook.com">facebook</a><br><br>
+   </div>
+
+   <!--flexbox-->
+   <div class="flex-section">
+    <h2>my favourit food apple </h2>
+    <div class="flex-container">
+      <div class="flex-box">
+        <h4>this is a very delicious food</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, debitis!</p>
+      </div>
+      <div class="flex-box">
+        <h4>this is a very delicious food</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, debitis!</p>
+      </div>
+      <div class="flex-box">
+        <h4>this is a very delicious food</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, debitis!</p>
+      </div>
+      <div class="flex-box">
+        <h4>this is a very delicious food</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, debitis!</p>
+      </div>
+    </div>
+   </div>
+   <!--grid-section-->
+   <div class="grid-section">
+    <h3>my favourit play footbal</h3>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus veniam accusamus fugit perferendis modi aperiam consequuntur neque vero repellendus!</p>
+    <div class="grid-container">
+      <div class="grid-item">cricket</div>
+        <div class="grid-item">taptanis</div>
+        <div class="grid-item">jurcy</div>
+        <div class="grid-item">football</div>
+        <div class="grid-item">chest</div>
+       <div class="grid-item">bick</div>
+    </div>
+   </div>
+   <footer>
+    <h2>thanks for vesiting</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos harum consectetur expedita nostrum possimus dolorem excepturi delectus quo veniam! Asperiores deleniti maxime aliquam aut quam enim quasi in tenetur.</p>
+   </footer>
+  </body>
+</html>
