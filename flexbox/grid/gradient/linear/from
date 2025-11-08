@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gradient Practice</title>
+  <style>
+    body {
+      margin: 0;
+      font-family:Arial, sans-serif;
+      text-align: center;
+      color: rgb(179, 200, 181);
+    }
+    .container{
+        width:1200px;
+        height: 300px;
+        background:linear-gradient(to right, #5a4133, #396b19);
+        border-radius: 20px;
+        border:2px solid #d65409;
+        padding: 10px;
+        margin: 20px;
+    }
+    .flex-section{
+        background: #089dbf22;
+        padding: 30px;
+        color: #d65409;
+        border: 2px solid orangered;
+        border-radius: 10px;
+        margin:10px;
+       
+    }
+    .flex-container{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        gap:10px;
+        flex-warp:wrap;
+    }
+    .flex-box{
+        background-color:#2222;
+        border-radius:10px;
+        width:180px;
+       transition: 0.3s;
+        padding:10px;
+        margin:10px;
+    }
+    .flex-box:hover{
+        transform: scale(1.2);
+        background-color:rgb(162, 9, 6);
+    }
+
+    .gradient-bg {
+     width:100%;
+     height:50%;
+     background: linear-gradient(to right, #ff512f, #dd2476);
+     display:flex;
+     flex-direction:column;
+     justify-content:center ;
+     align-items: center;
+     border-radius: 20px;
+     padding: 10px;
+     margin:20px;
+    }
+
+    h1 {
+      font-size:40px;
+      color:#0072ff;
+           
+    }
+
+    button {
+      background: radial-gradient(circle, #063441, #0072ff);
+      border: none;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 30px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      transform: scale(1.1);
+      background: linear-gradient(to right, #0072ff, #00c6ff);
+    }
+     .grid-section {
+      background: #4b0c4b;
+      padding: 40px;
+      border-radius: 10px;
+      margin: 20px;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .grid-item {
+      background: #ff5722;
+      padding: 40px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .grid-item:hover {
+      transform: scale(1.1);
+      background: #6d3220;
+    }
+
+ .form-section {
+    background: linear-gradient(to right, #3f2b96, #a8c0ff);
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 70%;
+    margin: 30px auto;
+    box-shadow:0. 0 15px rgba(0,0,0,0.3);
+}
+
+.form-section h2 {
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input, textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+input:focus, textarea:focus {
+  outline: 2px solid #00c6ff;
+}
+
+button[type="submit"] {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+  transform: scale(1.1);
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+}
+
+
+    footer {
+      background: #222;
+      color: #aaa;
+      padding: 15px;
+      border-radius: 10px;
+      margin: 20px;
+    }
+    
+  </style>
+</head>
+<body>
+    <div class="header">
+        <h2>jisun</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae earum aspernatur dignissimos amet animi, fuga ullam quas praesentium quaerat?</p>
+    </div>
+    <div class="container">
+        <h1>tanzir</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id in at aut nobis. Dolorem animi aliquid, temporibus blanditiis ipsam rem accusantium exercitationem, saepe doloremque ducimus laborum odit. Incidunt, nesciunt sapiente.</p>
+    </div>
+    <div class="flex-section">
+        <h1>my name is jisun</h1>
+        <div class="flex-container">
+           <div class="flex-box">
+                <h2>1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="flex-box">
+                <h2>jisun</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, reprehenderit! Tenetur ipsum facilis ad dolores. Amet reprehenderit laboriosam</p>
+            </div>
+            <div class="flex-box">
+                <h2>1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+             <div class="flex-box">
+                <h2>tanzir</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate veritatis odit a eum eveniet deleniti ut inventore eligendi, </p>
+            </div>
+         </div>
+    </div>
+   <!--gradient--> 
+  <div class="gradient-bg">
+    <h1>Welcome Jisun 💫</h1>
+    <p>Learning CSS Gradients is fun!</p>
+    <button>Explore More</button>
+  </div>
+  <!--grid section-->
+  <div class="grid-section">
+    <h2>MD:mijanur rohoman</h2>
+    <div class="grid-container">
+        <div class="grid-item">
+            <h2>orange</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quaerat consectetur ullam quibusdam facilis a neque praesentium voluptatum fuga molestiae?</p>
+        </div>
+        <div class="grid-item">
+            <h2>painapel</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quaerat consectetur ullam quibusdam facilis a neque praesentium voluptatum fuga molestiae?</p>
+        </div>
+        <div class="grid-item">
+            <h2>mango</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quaerat consectetur ullam quibusdam facilis a neque praesentium voluptatum fuga molestiae?</p>
+        </div>
+        <div class="grid-item">
+            <h2>apple</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quaerat consectetur ullam quibusdam facilis a neque praesentium voluptatum fuga molestiae?</p>
+        </div>
+        <div class="grid-item">
+            <h2>banana</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quaerat consectetur ullam quibusdam facilis a neque praesentium voluptatum fuga molestiae?</p>
+        </div>
+        <div class="grid-item">
+            <h2>coconut</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quaerat consectetur ullam quibusdam facilis a neque praesentium voluptatum fuga molestiae?</p>
+        </div>
+    </div>
+  </div>
+   <!-- Contact Form Section -->
+<div class="form-section">
+  <h2>Contact Me 📬</h2>
+  <p>Have any question or message? Fill out the form below!</p>
+
+  <form>
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" placeholder="Enter your name" required><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" placeholder="Enter your email" required><br>
+
+    <label for="message">Your Message:</label><br>
+    <textarea id="message" rows="4" placeholder="Type your message here..."></textarea><br>
+
+    <button type="submit">Send Message</button>
+  </form>
+</div>
+<footer>
+<h2>welcome</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, repellendus?</p>
+</footer>
+</body>
+</html>
+
+</body>
+</html>
