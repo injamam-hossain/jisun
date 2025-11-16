@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+          margin: 0;
+          padding: 0;
+          font-family: arial;
+          background:white;
+    }
+    .header{
+          background: linear-gradient(to right,#b61212,#0d19ba);
+          text-align: center;
+          color:white;
+          padding:20px;
+          transition:0.3s;
+    }
+
+   .header:hover{
+    transform: scale(1.1);
+    background: linear-gradient(to right,#64ec04,#027a78);
+   } 
+
+  .btn {
+     background:linear-gradient(to right,#eb0f0f,#4207e7);
+     padding: 12px 24px;
+     border-radius: 8px;
+     border:none;
+     color:orange;
+     cursor:pointer;
+     transition: 0.3s;
+    }
+    .btn:hover{
+      transform:scale(1.1) rotate(20deg);
+    }
+.flex-section{
+    text-align:center;
+    padding:30px;
+    border:2px solid #47ed06;
+    margin-top: 10px;
+}
+.flex-container{
+    display:flex;
+    background-color: #11ee8e;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+.flex-box{
+    width:200px;
+    padding:20px;
+    background:#f50000f5;
+    color:white;
+    border-radius:10px;
+    transition:0.3s;
+}
+.flex-box:hover{
+    transform:scale(1.1);
+    background:#444;
+}
+.grid-section{
+    padding:30px;
+    text-align:center;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px;
+}
+.grid-item{
+    background:#005f73;
+    padding:20px;
+    color:white;
+    border-radius:10px;
+    transition:0.3s;
+}
+.grid-item:hover{
+    transform:scale(1.1);
+    background:#0a9396;
+}
+.img-box{
+  width:500px;
+  height:300px;
+  overflow:hidden;
+  border:2px solid #cd1010;
+  border-radius:10px;
+  margin:auto;
+}
+
+.img-box img{
+  width:100%;
+  height:100%;
+  transition:0.5s;
+}
+
+.img-box:hover img{
+ transform: scale(1.3);
+}
+
+  .car{
+    width:180px;
+    position:relative;
+    animation:drive 6s infinite linear;
+    border-radius: 10px;;
+}
+
+@keyframes drive{
+    0% {left:0px;}
+    50% {left:70%;}
+    100% {left:0px;}
+} 
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>welcome to my shop</h1>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam libero voluptas explicabo. Tenetur similique id distinctio animi aperiam, alias quidem.</p>
+  <button class="btn">click me</button>
+</div>
+
+<!--flex-section-->
+<div class="flex-section">
+  <h2>what kind of shoes you want</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, esse corporis! Sed, distinctio aperiam iste asperiores voluptatum ducimus quos optio.</p>
+  <div class="flex-container">
+  <div class="flex-box">lotto</div>
+  <div class="flex-box">paye paye</div>
+  <div class="flex-box">bata</div>
+  </div>
+  </div>
+
+ <!--grid-section-->
+  <div class="grid-section">
+    <h2>what kind of food you want</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et doloremque velit sed officia animi laudantium, quidem maiores ut accusantium impedit.</p>
+    <div class="grid-container">
+    <div class="grid-item">apple</div>
+    <div class="grid-item">orange</div>
+    <div class="grid-item">banana</div>
+    <div class="grid-item">cocunat</div>
+    <div class="grid-item">watermilon</div>
+    <div class="grid-item">watermilon</div>
+    </div>
+  </div>
+<!-- IMAGE ZOOM -->
+<h2 style="text-align:center;">Image Zoom Hover</h2>
+<div class="img-box">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo-ZJjE0xT1Mi4As8Ed3MJxYtWVYyVIToYplVNO2H4golVqUzrXmznexI&s">
+</div>
+
+<!-- CAR ANIMATION -->
+<h2 style="text-align:center; margin-top:40px;">Car Move Animation</h2>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST1C_YM4zBf2O15_Q-mgdhhtWd_l7_VGFTEg&s" class="car">
+
+
+
+</body>
+</html>
