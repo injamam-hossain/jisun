@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width,initial-scale=1.0">
+    <title>card</title>
+    <style>
+body{
+  margin:0;
+  padding: 0;
+  background:linear-gradient(#e31010,#0729ea);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  font-family: arial;
+}
+.card{
+  width:400px;
+  background:rgb(34,34,34,0.4);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  border:2px solid #df1212db;
+  padding: 14px;
+  box-shadow:0 5px 20px rgb(237, 249, 3);
+  transition:transfrom .34s ease,box-shadow .34s ease;
+  overflow: hidden;
+}
+.thumb{
+  border-radius: 10px;
+  overflow: hidden;
+}
+.thumb img{
+  width:100%;
+  height:280px;
+  object-fit: cover;
+  transition: transfrom .7s ease;
+ }
+.title{
+  margin:12px 0 7px;
+  font-size:20px;
+  color:#57e405;
+}
+.desc{
+  color:rgb(238, 240, 249);
+  font-size:14px;
+  margin-bottom:17px;
+}
+.meta{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price{
+  color:#dddee6;
+  font-weight:700;
+  font-size:18px;
+}
+.btn{
+  background: linear-gradient(#f50202cd,#b106f9);
+  color:rgb(207, 223, 236);
+  border:0;
+  padding:10px 20px;
+  border-radius: 10px;
+  cursor:pointer;
+  transition: transfrom .2s ease;
+}
+.card:hover{
+ transform: translateY(-10px) scale(1.02);
+ box-shadow: 0 18px 40px rgb(108,92,231,0.4);
+ border-color: #dc690b;
+}
+.card:hover .thumb img{
+   transform: scale(1.12)rotate(-1deg);
+}
+.card:hover .btn{
+  transform: translateX(-3px);
+}
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="thumb">
+        <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGNhcnxlbnwwfHwwfHx8MA%3D%3D " alt="product">
+        </div>
+        <h3 class="title">product name</h3>
+        <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, repellendus?</p>
+        <div class="meta">
+          <span class="price">$100</span>
+          <button class="btn">Add</button>
+          
+        </div>
+    </div>
+  </body>
+</html>
