@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>webside layout</title>
+  <style>
+  body{
+     margin:0;
+     padding: 0; 
+     background: #38ce47;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center; 
+     color:white;
+    }
+    .header{
+      background:linear-gradient(to right,#103710,#0f4b51);
+      margin: 20px;
+      padding: 10px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+    .header:hover{
+     transform: scale(1.1);
+     
+    }
+    .container{
+    background:linear-gradient(to right,#05f425,#04433a);
+   margin:30px;
+   padding:20px;
+   border-radius: 10px;
+   }
+    .container img{
+      width:100%;
+      height:200px;
+      border:2px solid #2604e6;
+      border-radius: 10px;
+      transition:0.3s;
+    }
+    .container img:hover{
+      transform: scale(1.1);
+    }
+    .flex-section {
+      background: #012509;
+      padding: 40px;
+      border-radius: 10px;
+      margin: 20px;
+    }
+
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .flex-box {
+      background: #108d13;
+      padding: 30px;
+      border-radius: 10px;
+      width: 150px;
+      transition: 0.3s;
+    }
+
+    .flex-box:hover {
+      transform: scale(1.1);
+      background: #033111;
+    }
+    .card{
+      width:400px;
+      padding:20px;
+      text-align: center;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #0b2d15, #0cf93f);
+      box-shadow: 0 4px 12px rgba(15, 44, 3, 0.975);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      margin: 50px auto;
+    }
+
+    .card img{
+      width:100%;
+      border-radius: 10px;
+      transition: transform 0.5s ease;
+    }
+
+    .card:hover{
+      transform: scale(1.03);
+      box-shadow: 0 18px 40px rgba(233, 6, 6, 0.911);
+    }
+
+    .card:hover img{
+      transform: scale(1.12);
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>welcome to my page</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim modi pariatur facere minima aspernatur laudantium tempore ullam dignissimos quis praesentium nesciunt ad, repudiandae explicabo culpa quaerat! Porro tempora delectus nobis.</p>
+  </div>
+  <!--container-->
+  <div class="container">
+    <h2>nice moment</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, explicabo.</p>
+    <img src="https://cdn.pixabay.com/photo/2024/03/09/20/09/flowers-8623299_1280.jpg"alt="online image">
+   </div>
+   <!--flex section-->
+   <div class="flex-section">
+    <h2>what kind of food you want.because food is life its very delicious food</h2>
+     <div class="flex-container">
+        <div class="flex-box">
+        <h3>apple</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est totam neque voluptatum laborum dolor nemo corrupti maxime. Dolor, sequi illum.</p>
+      </div>
+      <div class="flex-box">
+        <h3>mango</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est totam neque voluptatum laborum dolor nemo corrupti maxime. Dolor, sequi illum.</p>
+      </div>
+      <div class="flex-box">
+        <h3>banana</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est totam neque voluptatum laborum dolor nemo corrupti maxime. Dolor, sequi illum.</p>
+      </div>
+      <div class="flex-box">
+        <h3>banana</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est totam neque voluptatum laborum dolor nemo corrupti maxime. Dolor, sequi illum.</p>
+      </div>
+    </div>
+   </div>
+   <div class="card">
+    <h1>image card</h1>
+    <img src="https://cdn.pixabay.com/photo/2023/11/09/17/45/apple-8378041_1280.jpg" alt="online">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt temporibus voluptates aspernatur distinctio eaque!</p>
+    </div>
+     
+
+   
+</body>
+</html>
