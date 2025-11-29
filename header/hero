@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: rgb(227, 223, 215);
+            padding: 20px 30px;
+        }
+
+        nav {
+            background: #2222;
+            padding: 15px 25px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(123, 16, 16, 0.929);
+            transition: 0.3s;
+
+        }
+
+        nav:hover {
+            background-color: green;
+            transform: scale(1.04);
+        }
+
+        nav .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: black;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: 700;
+        }
+
+        nav ul li a:hover {
+            color: white;
+            transform: scale(1.08);
+        }
+
+        /* HERO */
+        .hero {
+            margin-top: 40px;
+            background: #2222;
+            padding: 50px;
+            border-radius: 12px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+            transition: 0.3s;
+        }
+
+        .hero:hover {
+            background-color: green;
+            transform: scale(1.04);
+        }
+
+        .hero-text {
+            width: 50%;
+        }
+
+        .hero-text h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+            color: black;
+        }
+
+        .hero-text p {
+            font-size: 18px;
+            line-height: 1.4;
+            margin-bottom: 20px;
+        }
+
+        .hero-text button {
+            background: black;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            transition: 0.4s;
+        }
+
+        .hero-text button:hover {
+            background-color: orange;
+            transform: scale(1.08);
+        }
+
+        .hero-img {
+            width: 50%;
+        }
+
+        .hero-img img {
+            width: 100%;
+            border-radius: 12px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 700px) {
+            .hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .hero-text,
+            .hero-img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Jisun👑</div>
+        <ul>
+            <li><a href="#">🛖 Home</a></li>
+            <li><a href="#">👕 Products</a></li>
+            <li><a href="#">🛵 Services</a></li>
+            <li><a href="#">🕿 Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+
+        <div class="hero-text">
+            <h1>Welcome to My Favourite Shop</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur modi fugit iure sequi ipsa vel maiores!
+            </p>
+            <button>Explore Now</button>
+        </div>
+
+        <div class="hero-img">
+            <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg">
+        </div>
+
+    </section>
+
+</body>
+
+</html>
